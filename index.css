@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   background: skyblue;
-
 }
 
 #good-dog-filter {
@@ -37,17 +36,21 @@
   text-align: center;
 }
 
-#dog-info {
+.dog-info {
   display: flex;
   flex-flow: column;
   align-items: center;
 }
 
-#dog-info img {
+.dog-info img {
   max-width: 75vw;
   max-height: 25vw;
 }
 
 body {
   margin: 0;
+}
+
+.hidden {
+  display: none !important;
 }
